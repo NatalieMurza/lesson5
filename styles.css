@@ -1,0 +1,60 @@
+@import url("reset.css");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+header {
+  font-size: 50px;
+  background-color: #dfdfdf;
+  color: rgb(185, 43, 43);
+  font-weight: 900;
+  text-align: center;
+}
+.main_container {
+  display: flex;
+}
+.logo_marvel {
+  width: 100%;
+}
+.superhero {
+  padding: 10px;
+  width: 25%;
+  height: 120px;
+  object-fit: cover;
+}
+.container_small_images {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid rgb(185, 43, 43);
+  margin: 1em 0;
+  padding: 0;
+}
+.container_text {
+  padding: 20px;
+  width: 50%;
+}
+
+.container_images {
+  width: 50%;
+  padding: 20px;
+}
+p {
+  margin: 20px;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+h2:hover {
+  text-decoration: underline;
+}
+.superhero:hover {
+  transform: scale(1.1);
+  transition-duration: 250ms;
+}
