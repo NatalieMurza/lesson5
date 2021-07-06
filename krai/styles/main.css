@@ -147,12 +147,7 @@ body {
   line-height: 1.1;
 }
 
-@media screen and(max-width: 500px) {
-  .button {
-    font-size: 25px;
-    border: 3px solid #ff6356;
-  }
-}
+
 
 .button-section {
   display: flex;
@@ -235,7 +230,43 @@ body {
 
 .copyright {
   text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.socials {
+  text-align: center;
 }
 
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 500px) {
+  .button {
+    font-size: 25px;
+    border: 2px solid #ff6356;
+  }
+  .about-mobile {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .about-info{
+    width: 100%;
+  }
+  .contact-mobile {
+    flex-direction: column;
+  }
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-map {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .header{
+    display: none;
+  }
+  
+
+
 }
